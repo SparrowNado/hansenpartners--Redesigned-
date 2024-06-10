@@ -419,7 +419,7 @@ a {
 
 
     .fancy-form label[for= "response"]{
-        background-image: url("/small\ response.png");
+        background-image: url("https://cdn.discordapp.com/attachments/1177676251465535539/1249859551172231168/small_response.png?ex=6668d5ea&is=6667846a&hm=3c2dd51f0a4f6b46ff676cffa52bccc542012d436b8287e6a374873f7f22e7df&");
     
     
         background-size: contain; /* Ensure the image covers the entire label */
@@ -431,7 +431,7 @@ a {
     }
     
     .fancy-form label[for= "syndicate"]{
-        background-image: url("/small\ syndicate.png");
+        background-image: url("https://cdn.discordapp.com/attachments/1177676251465535539/1249859548424966284/small_syndicate.png?ex=6668d5e9&is=66678469&hm=9b3764fa991146dad3494d5a975990017055b8628945868580f02580edd7595a&");
     
     
         background-size: contain; /* Ensure the image covers the entire label */
@@ -442,7 +442,7 @@ a {
     }
     
     .fancy-form label[for= "location"]{
-        background-image: url("/small\ tour.png");
+        background-image: url("https://cdn.discordapp.com/attachments/1177676251465535539/1249859548957904917/small_tour.png?ex=6668d5e9&is=66678469&hm=ac5ace4421c09e9efc9eaf4fc104e2e879ba8495a535b992a3b2b238e9fa823d&");
     
     
         background-size: contain; /* Ensure the image covers the entire label */
@@ -453,7 +453,7 @@ a {
     }
     
     .fancy-form label[for= "photo"]{
-        background-image: url("/small\ photo.png");
+        background-image: url("https://cdn.discordapp.com/attachments/1177676251465535539/1249859550497079296/small_photo.png?ex=6668d5ea&is=6667846a&hm=0cf46aad1c526d2ce8cbd5e5ef550c87633cce5967ee89805ce7a09ee785a21f&");
     
     
         background-size: contain; /* Ensure the image covers the entire label */
