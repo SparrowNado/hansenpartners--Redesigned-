@@ -4,6 +4,7 @@
 
 *{
     font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -81,7 +82,7 @@ body {
 
 .hero {
     position: relative;
-    background-image: url(https://images.unsplash.com/photo-1451153378752-16ef2b36ad05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80);
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -275,7 +276,7 @@ a {
 
 
 .fancy-form label[for= "response"]{
-    background-image: url("/Assets/Images/response.png");
+    background-image: url("/response.png");
 
 
     background-size: cover; 
@@ -286,7 +287,7 @@ a {
 }
 
 .fancy-form label[for= "syndicate"]{
-    background-image: url("/Assets/Images/syndicate.png");
+    background-image: url("/syndicate.png");
 
 
     background-size: cover; 
@@ -297,7 +298,7 @@ a {
 }
 
 .fancy-form label[for= "location"]{
-    background-image: url("/Assets/Images/tour.png");
+    background-image: url("/tour.png");
 
 
     background-size: cover; 
@@ -308,11 +309,11 @@ a {
 }
 
 .fancy-form label[for= "photo"]{
-    background-image: url("/Assets/Images/photo.png");
+    background-image: url("/photo.png");
 
 
-    background-size: cover; /* Ensure the image covers the entire label */
-    background-position: center; /* Center the image */
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat; 
 
 
@@ -409,7 +410,7 @@ a {
 
 
     .fancy-form label[for= "response"]{
-        background-image: url("/Assets/Images/small\ response.png");
+        background-image: url("/small\ response.png");
     
     
         background-size: contain; /* Ensure the image covers the entire label */
@@ -421,7 +422,7 @@ a {
     }
     
     .fancy-form label[for= "syndicate"]{
-        background-image: url("/Assets/Images/small\ syndicate.png");
+        background-image: url("/small\ syndicate.png");
     
     
         background-size: contain; /* Ensure the image covers the entire label */
@@ -432,7 +433,7 @@ a {
     }
     
     .fancy-form label[for= "location"]{
-        background-image: url("/Assets/Images/small\ tour.png");
+        background-image: url("/small\ tour.png");
     
     
         background-size: contain; /* Ensure the image covers the entire label */
@@ -443,7 +444,7 @@ a {
     }
     
     .fancy-form label[for= "photo"]{
-        background-image: url("/Assets/Images/small\ photo.png");
+        background-image: url("/small\ photo.png");
     
     
         background-size: contain; /* Ensure the image covers the entire label */
@@ -656,7 +657,7 @@ a {
 
 .process-section {
     position: relative;
-    background-image: url('/Assets/Images/big\ process.png');
+    background-image: url('/big\ process.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -702,7 +703,7 @@ a {
     }
 
     .process-section {
-        background-image: url("/Assets/Images/small\ sell.png");
+        background-image: url("/small\ sell.png");
         background-size: contain;
     }
 }
