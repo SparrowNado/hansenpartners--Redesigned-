@@ -82,18 +82,22 @@ body {
 
 .hero {
     position: relative;
-    background-image: url("/backupbackground.JPG");
+    background-image: url("https://aerialsoutheast.com/wp-content/uploads/2021/09/The-Benefits-of-Real-Estate-Drone-Photography-.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     height: 100vh;
-    filter: brightness(50%)
+    filter: brightness(50%);
+    z-index: -10;
+    
 }
 
 
 .hero_content img{
     height: 80px;
+    z-index: 10;
+    
 }
 
 .hero video{
@@ -108,6 +112,10 @@ body {
     left: 65%;
     transform: translate(0%, -50%);
     transition: all ease 0.3s;
+    z-index: 100;
+
+
+    
 }
 
 h1 {
@@ -277,7 +285,7 @@ a {
 
 
 .fancy-form label[for= "response"]{
-    background-image: url("/response.png");
+    background-image: url("https://cdn.discordapp.com/attachments/1177676251465535539/1249859430938578955/response.png?ex=6668d5cd&is=6667844d&hm=755c8103de5b189c25ca278c582b225193752458f9e27ed41d81e9652c2d1892&");
 
 
     background-size: cover; 
@@ -288,7 +296,7 @@ a {
 }
 
 .fancy-form label[for= "syndicate"]{
-    background-image: url("/syndicate.png");
+    background-image: url("https://cdn.discordapp.com/attachments/1177676251465535539/1249859549645766777/syndicate.png?ex=6668d5e9&is=66678469&hm=a835fe26247c2d4b58a16a6ae564e7dfa38bbda0797b88a777010bc79a7e01cc&");
 
 
     background-size: cover; 
@@ -299,7 +307,7 @@ a {
 }
 
 .fancy-form label[for= "location"]{
-    background-image: url("/tour.png");
+    background-image: url("https://cdn.discordapp.com/attachments/1177676251465535539/1249859550048424067/tour.png?ex=6668d5e9&is=66678469&hm=a1a7d8f00db71bc67e99588cedb8bfebf24b8e4954d4c1d564d57a58bdbb884b&");
 
 
     background-size: cover; 
@@ -310,7 +318,7 @@ a {
 }
 
 .fancy-form label[for= "photo"]{
-    background-image: url("/photo.png");
+    background-image: url("https://cdn.discordapp.com/attachments/1177676251465535539/1249859430330269808/photo.png?ex=6668d5cd&is=6667844d&hm=9d3144004cc58504d5ff2b9e6dd60efbdd64ef4ca52dd91ed46fc6534cb66083&");
 
 
     background-size: cover;
@@ -658,7 +666,7 @@ a {
 
 .process-section {
     position: relative;
-    background-image: url('/big\ process.png');
+    background-image: url('https://cdn.discordapp.com/attachments/1177676251465535539/1249859428275191900/big_process.png?ex=6668d5cc&is=6667844c&hm=9c784cf5a33c5ad62e0cfd9efbf9a2c1d16d468d1a8ad78b875f678c93575aba&');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -704,7 +712,7 @@ a {
     }
 
     .process-section {
-        background-image: url("/small\ sell.png");
+        background-image: url("https://cdn.discordapp.com/attachments/1177676251465535539/1249859550819913728/small_process.png?ex=6668d5ea&is=6667846a&hm=981c1a388a1902e829b081afe1b22eefd661cb1430cb2f0c0d7af715764ab4d0&");
         background-size: contain;
     }
 }
